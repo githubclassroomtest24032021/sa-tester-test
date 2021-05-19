@@ -1,6 +1,8 @@
-function s_generator(pt) {
-    // return function
-}
-
-// Test
-// (draw_connected_squeezed_to_window(200))(s_generator(make_point(0.5, 0.25)));
+/*
+1) Θ(1)
+2) Θ(log _n_)
+3) Θ(_n_)
+4) Θ(_n_ log _n_)
+5) Θ(_n_²)
+6) Θ(_n_³)
+*/
