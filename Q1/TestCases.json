@@ -1,0 +1,36 @@
+[{
+    "answer": "[[1, [2, [3, null]]], [4, [5, null]]]",
+    "program": "sort_pair_of_lists(pair(list(2, 1, 3), list(5, 4)));"
+},
+{
+    "answer": "[null, null]",
+    "program": "partition(null, 42);"
+},
+{
+    "answer": "[null, [1, [2, [3, null]]]]",
+    "program": "sort_pair_of_lists(partition(list(1, 2, 3), 0));"
+},
+{
+    "answer": "[[1, null], [2, [3, null]]]",
+    "program": "sort_pair_of_lists(partition(list(1, 2, 3), 1));"
+},
+{
+    "answer": "[[1, [2, null]], [3, null]]",
+    "program": "sort_pair_of_lists(partition(list(1, 2, 3), 2));"
+},
+{
+    "answer": "[[1, [2, [3, null]]], null]",
+    "program": "sort_pair_of_lists(partition(list(1, 2, 3), 3));"
+},
+{
+    "answer": "[[1, [2, [3, null]]], null]",
+    "program": "sort_pair_of_lists(partition(list(1, 2, 3), 4));"
+},
+{
+    "answer": "[[2, [2, [2, null]]], null]",
+    "program": "partition(list(2, 2, 2), 2);"
+},
+{
+    "answer": "[[0, [2, [2, null]]], null]",
+    "program": "sort_pair_of_lists(partition(list(2, 0, 2), 2));"
+}]
