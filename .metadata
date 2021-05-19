@@ -1,8 +1,8 @@
-coverImage=https://i.imgur.com/q2O4iwa.png
+coverImage=https://s3-ap-southeast-1.amazonaws.com/mission-assets/missions/Quicksort.png
 kind=mission
-number=M3
-title=Curve Introduction
-sourceVersion=1
+number=M6B
+title=Sorting Things Out
+sourceVersion=2
 
-reading=Textbook Sections 1.1.5 to 1.1.8
-webSummary=In this mission, you get introduced to visible functions, called Curves!
+reading=None
+webSummary=A quick look at quicksort.
