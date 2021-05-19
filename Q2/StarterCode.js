@@ -1,6 +1,12 @@
-function three_quarters(pt) {
-    // return a curve
+// Task 2
+function partition(xs, p) {
+    // Your answer from Task 1
+}
+
+function quicksort(xs) {
+    // Your answer here
 }
 
 // Test
-// draw_connected_squeezed_to_window(200)(three_quarters(make_point(0.5, 0.25)));
+// const my_list = list(23, 12, 56, 92, -2, 0);
+// quicksort(my_list);
