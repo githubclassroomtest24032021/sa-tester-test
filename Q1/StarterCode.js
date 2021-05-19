@@ -1,13 +1,8 @@
-// Part 1
-// your answer here
-
-// Part 2
-function vertical_line(pt, length) {
-  // your answer here
+// Task 1
+function partition(xs, p) {
+  // Your answer here
 }
-  
-// Part 3
-// your answer here
-  
-// Part 4
-// your answer here
+
+// Test
+// const my_list = list(1, 2, 3, 4, 5, 6);
+// partition(my_list, 4);

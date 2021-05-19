@@ -1,24 +1,16 @@
-Recall the definition of `unit_line_at`:
+**Quicksort** is considered to be:
+- Easy to understand;
+- Moderately not simple to implement correctly;
+- A little hard to analyze;
+- Challenging to further optimize.
 
-```
-function unit_line_at(y){
-    return t =&gt; make_point(t, y);
-}
-```
+However, with the magic power of Source, **quicksort** can be easily understood and implemented. In order to implement quicksort using the List library in Source, we first need to implement a `partition` operation on a list that adheres to the following specification.
 
-1. What is the type of `unit_line_at`?
-**Hint:** As an example, the type of the `make_point` function is
-`make_point` : (Number, Number) -&gt; Point
+The function `partition` is applied to a possibly unsorted list `xs` and an element `p` that we call *pivot*. It returns a pair of two possibly unsorted lists, that when combined contain all elements of `xs`. The head of the pair contains all elements of `xs` that are smaller than or identical to `p` and the tail of the pair contains all elements of `xs` that are larger than `p`. In this task, it is irrelevant in what order the elements of `xs` appear in the result lists.
 
-2. Define a function `vertical_line` which takes two arguments, a point and a length,
-and returns a vertical line of the given length beginning at the given point.
-Note that the line should be drawn upwards (i.e., towards the positive-y direction) from the point.
+For example, `partition(list(5,6,1,7,9,2), 6)` may return a result that is equal to `pair(list(2, 1, 6, 5), list(9, 7))`. The order does not matter. A result that is equal to `pair(list(5, 6, 1, 2), list(7, 9))` is also allowed.
 
-3. What is the type of `vertical_line`?
+Please fill in the template given and implement the `partition` operation on a list.
 
-4. Using `draw_connected` and your function `vertical_line` with suitable arguments,
-draw a vertical line in the drawing window which is centered horizontally and vertically and
-has half the length of the sides of the drawing window.
-
-**Remember**: For the Interpreter to display your Drawing, the last statement in your program
-should evaluate to the Drawing.
+Use the test environment (airplane icon) to run some test cases that we provide, but
+do not rely only on these test cases. Because the sort order in the lists returned by partition is not specified, the test cases make use of a special function `sort_pair_of_lists`. This function sorts the result of partition to enable testing.
