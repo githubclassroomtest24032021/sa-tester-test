@@ -6,3 +6,4 @@ function partition(xs, p) {
 // Test
 // const my_list = list(1, 2, 3, 4, 5, 6);
 // partition(my_list, 4);
+change
