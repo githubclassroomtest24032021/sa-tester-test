@@ -1,7 +1,12 @@
-/*
-1) Θ(1)
-2) Θ(log _n_)
-3) Θ(_n_)
-4) Θ(_n_ log _n_)
-5) Θ(_n_²)
-*/
+MCQ
+{
+  "questions":
+  [
+    { "solution": "Θ(1)", "hint":"" },
+    { "solution": "Θ(log _n_)", "hint":"" },
+    { "solution": "Θ(_n_)", "hint":"" },
+    { "solution": "Θ(_n_ log _n_)", "hint":"" },
+    { "solution": "Θ(_n_²)", "hint":"" }
+  ],
+  "answer": -1
+}
