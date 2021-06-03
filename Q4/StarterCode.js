@@ -9,5 +9,5 @@ MCQ
     { solution: "Θ(_n_²)", hint:"" },
     { solution: "Θ(_n_³)", hint:"" },
   ],
-  answer: 0
+  answer: -1
 }
