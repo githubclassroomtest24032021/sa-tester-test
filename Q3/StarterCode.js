@@ -8,5 +8,6 @@ MCQ
     { "solution": "Θ(_n_ log _n_)", "hint":"" },
     { "solution": "Θ(_n_²)", "hint":"" }
   ],
-  "answer": -1
+  "answer": -1,
+  "solution": 2
 }
