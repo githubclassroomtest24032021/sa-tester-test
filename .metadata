@@ -1,5 +1,5 @@
 coverImage=https://s3-ap-southeast-1.amazonaws.com/mission-assets/missions/Quicksort.png
-kind=mission
+type=mission
 number=M6B
 title=Sorting Things Out
 sourceVersion=2
